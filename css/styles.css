@@ -216,7 +216,7 @@ header {
 .author-info a {
   color: white;
 }
-
+/*
 .slider > a {
   display: inline-flex;
   width: 1.5rem;
@@ -235,6 +235,8 @@ header {
   height: 1.5rem;
   background: #FFFFFF;
   text-decoration: none;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   margin: 0 0 0.5rem 0;
   position: relative;
@@ -251,6 +253,7 @@ header {
 .slider2 > a:focus {
   background: #000;
 }
+*/
 
 /* Don't need button navigation */
 @supports (scroll-snap-type) {
