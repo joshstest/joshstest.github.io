@@ -11,12 +11,13 @@ body {
 }
 
 h1 {
+  float: left;
   text-overflow: clip;
   white-space: nowrap;
   font-family: 'Vollkorn', sans-serif;
   font-size: 50px;
-  line-height: 1.5;
-  padding-left: 30px;
+  padding-left: 12.5px;
+  margin-top: 12.5px;
   color: #FFFFFF;
   -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
           animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
@@ -33,6 +34,11 @@ p {
   font-size: 25px;
 }
 
+.bookingText {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 header {
   height: 75px;
   width: 100%;
@@ -45,6 +51,34 @@ header {
           animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
   -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
           animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+header div {
+  float: right;
+  width: 500px;
+  height: 75px;
+  margin-top: 12.5px;
+  margin-right: 12.5px;
+}
+
+header .contact1 {
+  font-family: 'Vollkorn', sans-serif;
+  text-decoration: none;
+  text-align: right;
+  color: white;
+  white-space: nowrap;
+}
+
+header .contact {
+  font-family: 'Vollkorn', sans-serif;
+  text-decoration: none;
+  text-align: right;
+  color: white;
+  white-space: nowrap;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 .line {
@@ -329,4 +363,14 @@ header {
 
 iframe {
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1344px) {
+  header {
+    height: 150px;
+  }
+
+  .headshot {
+    margin-top: 150px;
+  }
 }
