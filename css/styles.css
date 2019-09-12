@@ -28,6 +28,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+p {
+  float: none;
+}
+
 header {
   height: 75px;
   width: 100%;
