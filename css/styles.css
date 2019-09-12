@@ -103,6 +103,15 @@ header {
   margin-left: 1em;
 }
 
+.book {
+  text-align: center;
+}
+
+.booklink {
+  color: red;
+  font-weight: bold;
+}
+
 /*SLIDER*/
 /* {
   box-sizing: border-box;
